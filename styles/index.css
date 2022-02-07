@@ -101,6 +101,7 @@
 
 /*start flexbox nr 3*/
 
+
 .flexcontainer-third {
     display: flex;
     background-color:#F48C06;
@@ -115,6 +116,7 @@
     flex-direction: row;
     justify-content: space-evenly;
     align-items: flex-end; 
+  
 } 
 .squere-first-7 {
     background-color: #9D0208;
@@ -124,8 +126,7 @@
     padding: 20px;
     margin-right: 20px;
     display: flex;
-    align-self: stretch;
-    text-align: center;
+    align-self: stretch;  
 }
 .squere-second-8 {
     background-color: #9D0208;
@@ -136,7 +137,7 @@
     margin-right: 20px;
     display: flex;
     align-self: center;
-    text-align: center;
+    
 }
 .squere-last-9 {
     background-color: #9D0208;
@@ -146,8 +147,7 @@
     padding: 20px;
     display: flex;
     align-self: stretch;
-    text-align: center;
-    text-align-last: center;
+    
 }
 /*end flexbox nr 3*/
 
@@ -165,8 +165,7 @@
     margin-top: -680px;
     margin-left: 640px;
     flex-direction: row;
-    justify-content: center
-   
+    justify-content: center  
 } 
 .squere-first-10 {
     background-color: #9D0208;
@@ -177,7 +176,6 @@
     margin-right: 20px;
     display: flex;
     align-self: stretch;
- 
 }
 .squere-second-11 {
     background-color: #9D0208;
@@ -188,7 +186,6 @@
     margin-right: 20px;
     display: flex;
     align-self: stretch;
-  
 }
 .squere-last-12 {
     background-color: #9D0208;
@@ -198,7 +195,7 @@
     padding: 20px;
     display: flex;
     align-self: stretch;
-   
+
 }
 /*end flexbox nr 4*/
 
@@ -269,27 +266,26 @@
 .squere-first-16 {
     background-color: #9D0208;
     border-radius: 4px;
-    width: 58px;
+    flex-grow: 1;
     height: 58px;
     padding: 20px;
-    margin-right: 20px;
+    margin: 20px;
     display: flex;
 }
 .squere-second-17 {
     background-color: #9D0208;
     border-radius: 4px;
-    width: auto;
+    flex-grow: 4;
     height: 58px;
     padding: 20px;
-    display: flex;
-    align-self: ;
-    
+    display: flex;  
 }
 .squere-last-18 {
     background-color: #9D0208;
     border-radius: 4px;
-    width: 58px;
+    flex-grow: 1;
     height: 58px;
+    margin: 20px;
     padding: 20px;
     display: flex; 
 }
